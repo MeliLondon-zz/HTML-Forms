@@ -35,6 +35,30 @@
           <label for="bio">Biography:</label>
           <textarea id="bio" name="user_bio"> </textarea>
           
+          <label for="job">Job role:</label>
+          <select id="job" name="user_job">
+            
+            <optgroup label="Web">
+              <option value="frontend_developer">Front-End Developer</option>
+              <option value="php_developer">PHP Developer</option>
+              <option value="rails_developer">Python Developer</option>
+              <option value="web_designer">Web Designer</option>
+              <option value="wordpress_developer">Wordpress Developer</option>
+            </optgroup>
+            
+            <optgroup label="Mobile">
+              <option value="android_developer">Android</option>
+              <option value="ios_developer">iOS</option>
+              <option value="mobile_designer">Mobile Designer</option>
+            </optgroup>  
+            
+            <optgroup label="Other">
+              <option value="buisness_owner">Business Owner</option>
+              <option value="freelance">Freelancer</option>
+            </optgroup>  
+              
+          </select>
+          
         </fieldset>  
         
         <button type="submit">Sign Up</button>
